@@ -1,0 +1,53 @@
+/* HighScore css for highscore list */
+
+body {
+    color: white;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+    border: hidden;
+    margin: auto;
+}
+
+#goBack {
+    background-color: blue;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+#clear {
+    background-color: blue;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+

@@ -1,0 +1,126 @@
+body {
+    color: white;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#decrease {
+    text-decoration: underline;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: hidden;
+    margin: auto; 
+}
+#startTime {
+    background-color: blue;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+#questionsDiv {
+    margin: 20px;
+}
+
+#currentTime {
+    float: right;
+}
+
+#goBack {
+    background-color: purple;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#clear {
+    background-color: purple;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: blue;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    background-color: blue;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+/* media query */
+@media screen and (max-width: 790px) {
+
+#questionsDiv {
+ display: flex;
+flex-direction: row;
+ display: block; 
+}
+a {
+margin: 0%;
+}
+
+/* media query for phone */
+@media screen and (max-width: 650px) {}    
+#container {
+   margin: 0px; 
+}
+}
