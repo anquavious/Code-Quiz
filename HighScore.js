@@ -8,7 +8,11 @@ clear.addEventListener("click", function () {
     localStorage.clear();
     location.reload();
 });
-// Retreives highscores local stroage 
+// go back after clearing screen if desire to do so
+goBack.addEventListener("click", function () {
+    window.location.replace("./index.html");
+});
+// Retreives highscores from local stroage 
 var allScores = localStorage.getItem("allScores");
 allScores = JSON.parse(allScores);
 allScores = allScores.sort(function(a,b){
@@ -25,7 +29,7 @@ if (allScores !== null) {
 
     }
 }
-// Event listener to move to index page
+// Event listener to go to previous page if desire to do so without clearing high score list
 goBack.addEventListener("click", function () {
     window.location.replace("./index.html");
 });
